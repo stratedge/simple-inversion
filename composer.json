@@ -1,0 +1,23 @@
+{
+	"name": "stratedge/simple-inversion",
+	"description": "A very simple class that will provide Laravel-like, type-hint-based inversion of control (IoC)",
+	"keywords": ["dependency", "injection", "inversion", "control"],
+	"homepage": "https://github.com/stratedge/simple-inversion",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jarret Byrne",
+			"homepage": "http://www.jarretbyrne.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/stratedge/simple-inversion/issues",
+		"source": "https://github.com/stratedge/simple-inversion"
+	},
+	"autoload": {
+		"psr-4": {
+			"Stratedge\\SimpleInversion\\": "lib"
+		}
+	}
+}
